@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4CAF50;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.game-selector {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.game-button {
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.game-button:hover:not(:disabled) {
+  background: #4CAF50;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.game-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.status-message {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #2c3e50;
+  border-radius: 5px;
+  color: #4CAF50;
+}
+
+.instructions {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #2c3e50;
+  border-radius: 10px;
+  text-align: left;
+}
+
+h2, h3 {
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.general-instructions {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #3a3a3a;
+}
