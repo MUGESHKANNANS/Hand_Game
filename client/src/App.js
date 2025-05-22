@@ -8,7 +8,7 @@ function App() {
   const startGame = async (gameType) => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:5000/start/${gameType}`, {
+      const response = await fetch(`https://161b-103-114-208-197.ngrok-free.app/start/${gameType}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
